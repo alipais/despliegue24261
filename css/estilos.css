@@ -9,3 +9,26 @@
  font-variation-settings: "WDTH" 100;
 }
 
+body{
+    position: relative;
+    min-height: 100vh; /*toma todo el alto del view porrt*/
+    padding-bottom: 4.5rem;
+}
+
+header, footer{
+    background-color: coral;
+    color: whitesmoke;
+    height: auto;
+    text-align: center;
+}
+main{
+    background-color: whitesmoke;
+    padding: 4%;
+}
+
+footer{
+    position: absolute; /*posicion absoluta y que quede pegado al pie*/
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+}
